@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+# for allow cors 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Your React app's development server
 ]
